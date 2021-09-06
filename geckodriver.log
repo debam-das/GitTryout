@@ -1,0 +1,26 @@
+1629011595431	geckodriver	INFO	Listening on 127.0.0.1:60597
+1629011598503	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\debam\\AppData\\Local\\Temp\\rust_mozprofile0c0Wmo"
+1629011598839	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\debam\\AppData\\Local\\Temp\\rust_mozprofile0c0Wmo\\search.json.mozlz4", (void 0)))
+1629011600748	Marionette	INFO	Listening on port 60606
+1629011601174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1629011604589	Marionette	INFO	Stopped listening on port 60606
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629012889882	geckodriver	INFO	Listening on 127.0.0.1:50957
+1629012892948	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\debam\\AppData\\Local\\Temp\\rust_mozprofileSNEJoM"
+1629012893403	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\debam\\AppData\\Local\\Temp\\rust_mozprofileSNEJoM\\search.json.mozlz4", (void 0)))
+1629012895538	Marionette	INFO	Listening on port 50965
+1629012895655	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource:///actors/FormValidationChild.jsm, line 177: TypeError: this._element is null
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+1629012899012	Marionette	INFO	Stopped listening on port 50965
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

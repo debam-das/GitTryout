@@ -1,0 +1,9 @@
+lemoncheesecake
+selenium
+webdriver_manager
+git-python
+requests
+pyyaml
+urllib3
+polling2
+pytz
