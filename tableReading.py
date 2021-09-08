@@ -1,5 +1,5 @@
 from selenium import webdriver
-from pythonFirstPage import serachPage
+from pythonFirstPage import searchPage
 from baseUtility import baseutility
 
 # class testCase():
@@ -12,15 +12,15 @@ from baseUtility import baseutility
 #     def closure(cls):
 #         cls.driver.close()
 #         cls.driver.quit()
-    
+
 # obj1=testCase()
 # obj1.start()
 # obj1.process()
 # obj1.closure()
 
-#1st test case Exctution using POM style 
-bu=baseutility()
-bu.intialiazation("firefox","http://www.python.org")
-sp=serachPage(bu.getDriver())
-sp.firstMetohd("pycon")
-bu.tremination()
+# 1st test case Exctution using POM style
+bu = baseutility()
+bu.initialization("chrome", "http://www.python.org")
+sp = searchPage(bu.getDriver())
+sp.firstMethod("pycon")
+bu.termination()
